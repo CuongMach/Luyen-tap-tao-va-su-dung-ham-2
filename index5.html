@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 5</title>
+</head>
+<body>
+<script>
+    function number(x,y,z){
+        if (x<y && x<z){
+            min=x;
+        }else if(y<x && y<z){
+            min=y;
+        }else{
+            min=z;
+        }
+        return min;
+    }
+    let x = parseInt(prompt("Nhập số x"))
+    let y = parseInt(prompt("Nhập số y"))
+    let z = parseInt(prompt("Nhập số z"))
+    alert(number(x,y,z) + "là số nhỏ nhất")
+</script>
+</body>
+</html>
