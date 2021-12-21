@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+  function nhapdulieu(x){
+    if (isNaN(x)){
+      return false;
+    }else{
+      return true;
+    }
+  }
+  let x = parseInt(prompt("Nhập dữ liệu"));
+  if (nhapdulieu(x) === false) {
+    alert("false")
+  } else {
+    alert("true")
+  }
+</script>
+</body>
+</html>
