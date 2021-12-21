@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 9</title>
+</head>
+<body>
+<script>
+    function isInteger(number){
+        count = 0;
+        for (let i=0; i<arr.length;i++ ){
+            if(arr[i]===number){
+                count++;
+            }
+        }
+        return count;
+    }
+    let arr = prompt("Nhập mảng")
+    let str = [];
+    str = arr.split(",");
+    let number = prompt("Nhập số")
+    if (isInteger(number)===0){
+        alert("-1")
+    }else {
+        alert(isInteger(number))
+    }
+</script>
+</body>
+</html>
